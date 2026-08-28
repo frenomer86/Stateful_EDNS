@@ -112,15 +112,3 @@ from today's real infrastructure for a name that happened to come from
 one list or the other -- the age of the ranking a name was drawn from has
 no bearing on the freshness of the traffic measured for it.
 
-## Data and Reproducibility Statement
-
-Every number reported in the paper is produced by code that performs live
-network measurement and full episode reconstruction from scratch on each
-run; domain-pool construction, data collection, feature extraction, model
-training, and figure generation are separate, independently re-executable
-stages, none of which reads from a pre-computed results cache. The
-complete pipeline, the raw episode logs from the run underlying the
-paper, and exact package versions are provided here so that a reader can
-either reproduce the exact analysis in the paper from the retained logs,
-or regenerate the entire corpus fresh against whatever the live internet
-looks like on the day they run it.
