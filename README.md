@@ -5,8 +5,7 @@ Fingerprints for DNS Cache-Poisoning Detection: Transfer Across Resolver
 Policies Using Live Internet Measurement,"* prepared in the style of
 Elsevier's *Computers & Security*.
 
-The central design choice of this study: the benign half of every
-experiment is not simulated. Every benign episode in the corpus is a live
+The central design choice of this study: Every benign episode in the corpus is a live
 DNS query resolved, at collection time, against real production
 infrastructure -- Google Public DNS, Cloudflare, Quad9, and OpenDNS -- for
 domain names drawn from two independently sourced, currently-live domain
@@ -41,12 +40,6 @@ it, and everything it does not claim, in full.
 - `results/tables/` -- every CSV/JSON table referenced in the paper,
   organized by stage (`model_eval/`, `baselines/`, `deployment/`).
 - `results/figures/` -- all nine figures as vector PDFs.
-- `reviewer_critique/` -- the standalone editorial assessment of the
-  submission this study grew out of; not part of the paper itself, kept
-  here for context on why each design decision in `manuscript.tex` was
-  made.
-- `run_all.py`, `requirements.txt` -- the reproduction entry point and
-  exact package versions.
 
 ## Reproducing the analysis on the retained corpus
 
@@ -90,16 +83,7 @@ episodes on ordinary hardware -- `deployment_summary.json` under
 `results/tables/deployment/` reports the throughput actually measured on
 the machine this paper's corpus was built on.
 
-## Rebuilding the PDF
 
-```
-cd paper
-pdflatex manuscript && bibtex manuscript && pdflatex manuscript && pdflatex manuscript
-```
-
-`elsarticle.cls` and `elsarticle-num.bst` are included directly in
-`paper/` so this works without a working internet connection or a
-pre-installed Elsevier LaTeX class.
 
 ## On the domain lists
 
