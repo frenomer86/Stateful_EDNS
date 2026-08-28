@@ -15,15 +15,10 @@ that never sends anything to the public internet, with its reply timing
 resampled continuously from the live latency distribution measured on the
 benign side of the same run, so that raw network speed cannot become a
 shortcut a classifier learns instead of the intended protocol-state
-signal. `paper/manuscript.tex` documents this design, the reasons behind
-it, and everything it does not claim, in full.
+signal. 
 
 ## Layout
 
-- `paper/` -- `manuscript.tex`, `references.bib`, the compiled
-  `manuscript.pdf`, and the two Elsevier class/style files
-  (`elsarticle.cls`, `elsarticle-num.bst`) needed to rebuild it without a
-  network connection.
 - `src/` -- the full pipeline: DNS wire-format encode/decode, the live
   domain-pool builder, the data-collection harness, feature extraction,
   model training and evaluation, baseline re-implementations, deployment
