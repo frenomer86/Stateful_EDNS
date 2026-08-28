@@ -1,0 +1,4 @@
+model,precision,recall,f1,auroc,auprc,fpr,fam,tp,fp,fn,tn,n_benign,rule_of_three_fpr_upper95
+logistic_regression,1.0,1.0,1.0,1.0,1.0,0.0,0.0,972,0,0,972,972,0.0030864197530864196
+random_forest,1.0,1.0,1.0,1.0,1.0,0.0,0.0,972,0,0,972,972,0.0030864197530864196
+hist_gradient_boosting,1.0,1.0,1.0,1.0,1.0,0.0,0.0,972,0,0,972,972,0.0030864197530864196

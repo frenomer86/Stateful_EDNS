@@ -1,0 +1,10 @@
+{
+  "auroc_full": 0.9853116902911142,
+  "auroc_basic_packet": 0.8971583981100442,
+  "delong_z": 27.999519839055047,
+  "delong_p_value": 0.0,
+  "mcnemar_stat": 737.1594202898551,
+  "mcnemar_p_value": 0.0,
+  "full_correct_basic_wrong": 754,
+  "basic_correct_full_wrong": 5
+}

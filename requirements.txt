@@ -1,0 +1,10 @@
+# Exact versions this study's pipeline was run against. No package here
+# talks to anything other than the standard scientific-Python stack; the
+# DNS wire-format handling (src/dns_wire.py) is dependency-free by design
+# because a working dnspython/scapy install was not available in the
+# execution environment this study used, so ordinary raw sockets and a
+# hand-written codec do that work instead.
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+matplotlib==3.10.9

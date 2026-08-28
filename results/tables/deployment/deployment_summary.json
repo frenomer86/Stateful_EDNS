@@ -1,0 +1,30 @@
+{
+  "wire_roundtrip": {
+    "n_packets": 50000,
+    "query_parse_rate_per_s": 187990.5684391222,
+    "response_parse_rate_per_s": 121090.55334129163
+  },
+  "feature_extraction": {
+    "n_episodes": 6480,
+    "total_s": 1.5538621720006631,
+    "episodes_per_s": 4170.254039749694
+  },
+  "inference_latency": {
+    "n_trials": 2000,
+    "mean_ms": 0.14824398802920769,
+    "p50_ms": 0.1360789992759237,
+    "p95_ms": 0.22065099892643042,
+    "p99_ms": 0.29122445968823735
+  },
+  "outstanding_state_memory": {
+    "n_entries": 200000,
+    "rss_delta_kb": 289636,
+    "rss_delta_mib": 282.84765625,
+    "bytes_per_entry_estimate": 1482.93632
+  },
+  "environment": {
+    "cpu_count": 2,
+    "platform": "posix.uname_result(sysname='Linux', nodename='vm', release='6.18.44-fc-v21', version='#1 SMP PREEMPT_DYNAMIC @0', machine='x86_64')"
+  },
+  "note": "All figures were measured on the single cloud instance this study's pipeline was executed on; they describe this environment, not a production deployment, and are not extrapolated to other hardware."
+}
